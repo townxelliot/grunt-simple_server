@@ -12,10 +12,10 @@ Configure in grunt.initConfig(), e.g.
         // directory containing the app you want to serve
         dir: 'app',
 
-        // default is 20202
+        // optional; default is 20202
         port: 7891,
 
-        // optional function to do something with the config
+        // optional; callback function to do something with the config
         callback: function (config) {
           // receives the simple_server config once the server is started
         }
