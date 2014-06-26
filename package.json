@@ -2,7 +2,7 @@
   "name": "grunt-simple_server",
   "version": "0.0.1",
   "description": "Trivial HTTP server to serve a single folder; no frills",
-  "main": "index.js",
+  "main": "tasks/grunt-simple_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
