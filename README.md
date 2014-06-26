@@ -23,3 +23,13 @@ Configure in grunt.initConfig(), e.g.
     });
 
 Note that this task blocks until you manually kill it with Ctrl-C.
+
+# Licence
+
+This code is extracted from the webapps-slider-puzzle project, to make
+it easier to reuse in other projects (I've been copying and pasting it
+between projects for months):
+
+https://github.com/01org/webapps-slider-puzzle/blob/master/tools/grunt-tasks/grunt-simple_server.js
+
+It is released under the same licence: Apache v2

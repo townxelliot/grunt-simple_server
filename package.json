@@ -1,5 +1,5 @@
 {
-  "name": "simple_server",
+  "name": "grunt-simple_server",
   "version": "0.0.1",
   "description": "Trivial HTTP server to serve a single folder; no frills",
   "main": "index.js",
