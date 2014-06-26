@@ -9,6 +9,6 @@
   "author": "Elliot Smith <elliot.smith@intel.com>",
   "license": "MIT",
   "dependencies": {
-    "connect": "^3.0.1"
+    "connect": "2.7.11"
   }
 }
