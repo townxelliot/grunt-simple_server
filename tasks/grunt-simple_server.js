@@ -1,3 +1,5 @@
+var ip = require('ip');
+
 module.exports = function (grunt) {
   var connect = require('connect');
 
@@ -15,7 +17,7 @@ module.exports = function (grunt) {
 
     app.listen(port);
 
-    grunt.log.writeln('Client is available at http://localhost:' + port + '/');
+    grunt.log.writeln('Client is available at http://' + ip.address() + ':' + port + '/');
 
     if (cb) {
       cb(grunt.config('simple_server'));

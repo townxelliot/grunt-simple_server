@@ -9,6 +9,7 @@
   "author": "Elliot Smith <elliot.smith@intel.com>",
   "license": "MIT",
   "dependencies": {
-    "connect": "2.7.11"
+    "connect": "2.7.11",
+    "ip": "^0.3.0"
   }
 }
